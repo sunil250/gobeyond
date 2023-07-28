@@ -1,19 +1,26 @@
 import React from 'react'
-import Herobanner from './Components/Herobanner'
 
 import './assests/Style/index.css'
-import Newbanner from './Components/Newbanner'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Landing from './Pages/Landing'
+import Home from './Pages/Home'
+import Header from './Components/Header'
+import About from './Pages/About'
 
 const App = () => {
 
-
-
-    // setActive(true)} onMouseOut = {    showHideUpdateRow(false)
     return (
         <>
-
-            {/* <Herobanner /> */}
-            <Newbanner />
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/landing' element={<Landing />} />
+                    <Route path='/' element={<Header />}>
+                        <Route index element={<Home />} />
+                        <Route path='/about' element={<About />} />
+                    </Route>
+                </Routes>
+            </BrowserRouter>
         </>
     )
 }
