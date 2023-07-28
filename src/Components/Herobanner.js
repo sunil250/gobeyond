@@ -44,12 +44,6 @@ const Herobanner = () => {
                     </polygon>
                     <polygon className="grid-1-1 mid-section postion-relative" points="781,0.5 980,0.5 980,200"
                         stroke="#ff8a00" fill='' >
-                        <svg className=" grid-1-animation" fill="none" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 200 200"
-                            space="preserve">
-                            <polygon className="grid-1-1 mid-section postion-relative" points="0,0.5 20,0.5 20,200"
-                                stroke="#ff8a00" fill='' >
-                            </polygon>
-                        </svg>
                     </polygon>
                     <polygon className="grid-1-1 mid-section postion-relative mt-4" points="781,200 980,200 980,400"
                         stroke="#ff8a00" fill='' >
