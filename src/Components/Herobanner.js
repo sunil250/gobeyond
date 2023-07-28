@@ -35,7 +35,7 @@ const Herobanner = () => {
 
             <section className="home-hero-section">
 
-
+{/* code starts */}
                 <svg className=" grid-1-animation" fill="none" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1366 855"
                     space="preserve">
                     {/* points direction "left,top width, top bottom, height" */}
